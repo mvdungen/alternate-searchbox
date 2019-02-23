@@ -1,0 +1,47 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+.portivaSearch {
+    .container {
+        .row {
+            @include ms-Grid-row;
+            margin-bottom: 10px;
+        }
+        .column12 {
+            @include ms-Grid-col;
+            @include ms-lg12;
+        }
+        .fullColumn {
+            @include ms-Grid-col;
+            @include ms-lg12;
+            @include ms-xl12;
+        }
+        .column10 {
+            @include ms-Grid-col;
+            @include ms-lg10;
+            @include ms-sm8;
+        }
+        .column02 {
+            @include ms-Grid-col;
+            @include ms-lg2;
+            @include ms-sm4;
+        }
+        .title {
+            @include ms-font-xl;
+        }
+        .description {
+            @include ms-font-m;
+            margin-bottom: 10px;
+        }
+        .iconMessage {
+            font-size: 130%;
+            position: relative;
+            top: 4px;
+        }
+        .errorContainer {
+            margin: auto;
+        }
+        .centerWebPart {
+            margin: auto;
+            width: 60%;
+        }
+    }
+}

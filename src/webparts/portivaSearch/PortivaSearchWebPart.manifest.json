@@ -1,0 +1,36 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+    "id": "cf95ef01-04d6-4d6a-bff5-4665b96296e1",
+    "alias": "PortivaSearchWebPart",
+    "componentType": "WebPart",
+
+    "version": "*",
+    "manifestVersion": 2,
+
+    "requiresCustomScript": false,
+
+    "preconfiguredEntries": [{
+        "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+        "group": { "default": "Other" },
+        "title": { "default": "Portiva Search" },
+        "description": { "default": "Portiva Search adds a search box to your web part and allow you to configure this search box." },
+        "officeFabricIconFontName": "DocumentSearch",
+        "properties": {
+            "title": "",
+            "description": "",
+            "showDescriptionBelowSearchBox": false,
+            "ResultPageUrl": "",
+            "searchBoxPlaceholder": "Typ your search query here...",
+            "showSearchButton": true,
+            "searchButtonLabel": "Search",
+            "centerSearchWebPart": false,
+            "hideSPSearchBox": false,
+            "spSearchBoxClassName": "",
+            "spSearchBoxHideTimeOut": 0,
+            "useDefaultSearchResult": true,
+            "showPivotAll": true,
+            "showPivotDocuments": false,
+            "showPivotSites": false
+        }
+    }]
+}

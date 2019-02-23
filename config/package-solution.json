@@ -1,0 +1,12 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+    "solution": {
+        "name": "Portiva Search",
+        "id": "f1313da6-9055-4926-a9d3-7de6592de5bf",
+        "version": "1.0.0.0",
+        "includeClientSideAssets": true
+    },
+    "paths": {
+        "zippedPackage": "solution/portivasearch.sppkg"
+    }
+}

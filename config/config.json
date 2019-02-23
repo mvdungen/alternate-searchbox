@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "portiva-search-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/portivaSearch/PortivaSearchWebPart.js",
+          "manifest": "./src/webparts/portivaSearch/PortivaSearchWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PortivaSearchWebPartStrings": "lib/webparts/portivaSearch/loc/{locale}.js"
+  }
+}

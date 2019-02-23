@@ -1,0 +1,26 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+.Common {
+    .row {
+        @include ms-Grid-row;
+    }
+    .fullColumn {
+        @include ms-Grid-col;
+        @include ms-lg12;
+        @include ms-xl12;
+    }
+    .title {
+        @include ms-font-xl;
+    }
+    .description {
+        @include ms-font-m;
+        margin-bottom: 10px;
+    }
+    .iconMessage {
+        font-size: 130%;
+        position: relative;
+        top: 4px;
+    }
+    .errorContainer {
+        margin: auto;
+    }
+}
